@@ -500,7 +500,6 @@
     grid-row-end: 2;
   }
   nav{
-    border: 2px solid red;
     flex-direction: column;
     justify-content: flex-start;
     width: 6vw;
@@ -517,7 +516,6 @@
     margin-left: auto;
   }
   main{
-    border: 2px solid red;
     width: 94vw;
     grid-column-start: 2;
     grid-column-end: 3;
