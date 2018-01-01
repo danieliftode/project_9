@@ -87,7 +87,7 @@
     display: inline-block;
   }
   .box_1{
-    width: 100vw;
+    width: 94vw;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -435,11 +435,11 @@
   }
   .chart_box{
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 46vw 46vw;
     grid-template-rows:  auto;
   }
   .box_2{
-    width: 50vw;
+    width: 46vw;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -450,12 +450,12 @@
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 2;
-    width: 50vw;
+    width: 46vw;
   }
   .social{
     flex-direction: row;
     height: 30vh;
-    width: 100vw;
+    width: 94vw;
   }
   .twitter_box,.facebook_box,.googleplus_box{
     width: 25%;
@@ -500,9 +500,10 @@
     grid-row-end: 2;
   }
   nav{
+    border: 2px solid red;
     flex-direction: column;
     justify-content: flex-start;
-    width: 70px;
+    width: 6vw;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -516,6 +517,8 @@
     margin-left: auto;
   }
   main{
+    border: 2px solid red;
+    width: 94vw;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;

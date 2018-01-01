@@ -4,8 +4,6 @@
 
 var unu = document.querySelector("strong");
 var doi = document.getElementById("alert");
-
-
 function patru() {
   doi.style.display = "none";
 };
@@ -115,3 +113,10 @@ var donughtChart = new Chart (ctx, {
       }
   }
 });
+var unu = document.querySelector(".user");
+var doi = document.querySelector(".msg");
+function send() {
+  if((unu.value === "Search for user" && doi.value === "") || (unu.value === "" && doi.value === "")){
+    alert("Please enter a user name and message")
+  }
+}
